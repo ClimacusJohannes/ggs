@@ -1,35 +1,9 @@
 @media (max-width: 1400px) {
-    a {
-        color: var(--navbar);
-
-        /* Text */
-        text-align: center;
-        text-decoration: none;
-        font-family: 'Montserrat';
-        font-size: 19px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-    }
-
-
 
     /* BODY --------------------------------- */
 
     body {
-        max-width: 1000px;
-        margin: 0;
-        color: var(--text);
-        font-family: 'Montserrat';
-        background: #edeae074;
-        width: 100%;
-        overflow: hidden;
         width: 100vw;
-        margin-left: auto;
-        margin-right: auto;
-        align-items: center;
-        /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
-        box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
     }
 
     div {
@@ -65,24 +39,6 @@
     }
 
 
-    p {
-        /* margin-left: var(--side-margin);
-        margin-right: var(--side-margin); */
-        padding: 0;
-        position: absolute;
-
-        color: var(--text);
-        z-index: 5;
-
-        /* Text */
-        /* text-align: right; */
-        font-family: 'Montserrat';
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 1.5;
-    }
-
     p.heading {
         position: absolute;
         padding: 0;
@@ -106,13 +62,13 @@
             /* position: relative; */
             float: right;
             right: calc(((100vw - 1008px) / 2) + 50px);
-            text-align: right;
+            text-align: center;
         }
 
         p.left {
             float: left;
             left: calc(((100vw - 1008px) / 2) + 50px);
-            text-align: left;
+            text-align: center;
         }
 
         p.leftHeading {
@@ -143,13 +99,13 @@
             /* position: relative; */
             /* float: right; */
             right: calc(((100vw - 1008px) / 2) + 50px);
-            text-align: right;
+            text-align: center;
         }
 
         p.left {
             /* float: left; */
             left: calc(((100vw - 1008px) / 2) + 50px);
-            text-align: left;
+            text-align: center;
         }
     }
 
@@ -185,7 +141,7 @@
         /* right: 166px; */
         top: 150.0px;
         /* float: right; */
-        text-align: right;
+        /* text-align: right; */
         width: 400px;
         height: 382px;
         flex-shrink: 0;
@@ -193,7 +149,7 @@
 
     p#Ivana {
         width: 340.2px;
-        top: 390px;
+        top: 350px;
     }
 
     #SVG1 {
@@ -207,11 +163,11 @@
 
     div#IzakGovori {
         width: 100%;
-        height: 347px;
-        max-height: 347px;
+        height: 400px;
+        /* max-height: 347px; */
         background-image: url("media/GGS-2.png");
         background-position: right;
-        background-size: 70%;
+        background-size: 80%;
     }
 
     p#oNas {
@@ -228,13 +184,13 @@
         /* top: 920px; */
         padding-top: 30px;
 
-        text-align: left;
+        /* text-align: left; */
     }
 
     #SVG2 {
         width: 53.1%;
-        height: 347px;
-        max-height: 347px;
+        height: 400px;
+        /* max-height: 3px; */
         flex-shrink: 0;
     }
 
