@@ -142,13 +142,13 @@
         p.right {
             /* position: relative; */
             /* float: right; */
-            right: 6%;
+            right: calc(((100vw - 1008px) / 2) + 50px);
             text-align: right;
         }
 
         p.left {
             /* float: left; */
-            left: 6%;
+            left: calc(((100vw - 1008px) / 2) + 50px);
             text-align: left;
         }
     }
@@ -363,4 +363,5 @@
         width: 941px;
         height: 678.1px;
     }
+
 }
